@@ -301,3 +301,63 @@ footer {
 .card{
   height: 70vh;
 }
+.image-icon{
+    width: 100px;
+    height: 50px;
+}
+.messages-div {
+    bottom: 10px;
+  }
+  .messages-divs {
+    bottom: 60px;
+    overflow-y:scroll;
+  }
+  .sender-msg {
+    float: right;
+  }
+  .sender-msg div {
+    border: 1px solid #E3E5EB;
+    color: #6a6666;
+    border-radius: 10px 0 10px 10px;
+    padding: 5px;
+    width: fit-content;
+    float: right;
+    block-size: fit-content;
+    background-color: #EFF2F7;
+  }
+  .receiver-msg {
+    float: left;
+  }
+  .receiver-msg div {
+    border: 1px solid #E3E5EB;
+    color: #6a6666;
+    border-radius: 0 10px 10px 10px;
+    padding: 5px;
+    width: fit-content;
+    float: left;
+    block-size: fit-content;
+    background-color: #EFF2F7;
+  }
+  .card{
+    height: 70vh;
+  }
+
+  img {
+      height: 30px;
+      width: 30px;
+      position: absolute;
+      right: 16%;
+      top:2px;
+  }
+  .img-thumbnail {
+      height: 100px;
+      width: 100px;
+  }
+  .message-image {
+      height: 100px;
+      width: 150px;
+  }
+  .image-content {
+      display: flex;
+      flex-direction: column;
+  }
